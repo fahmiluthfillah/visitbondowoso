@@ -247,7 +247,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mt-5">
+      <div className="pt-5">
         <Container>
           <h3 className="text-2xl font-bold">Article</h3>
           <div className="mt-4">
@@ -295,7 +295,44 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="mt-4">
+            <div className="flex items-center space-x-5 pb-6">
+              <div className="relative w-40 h-28">
+                <img
+                  src="https://primaitech.id/blog/wp-content/uploads/2021/09/Primaitech-panasbumi-scaled.jpg"
+                  layout="fill"
+                  className="object-cover rounded-xl w-full h-full"
+                />
+              </div>
+              <div>
+                <span className="text-sm text-gray-500">Category</span>
+                <h4 className="text-xl mt-1 font-bold">Description</h4>
+              </div>
+            </div>
+          </div>
+          <div className="mt-4">
+            <div className="flex items-center space-x-5 pb-6">
+              <div className="relative w-40 h-28">
+                <img
+                  src="https://primaitech.id/blog/wp-content/uploads/2021/09/Primaitech-panasbumi-scaled.jpg"
+                  layout="fill"
+                  className="object-cover rounded-xl w-full h-full"
+                />
+              </div>
+              <div>
+                <span className="text-sm text-gray-500">Category</span>
+                <h4 className="text-xl mt-1 font-bold">Description</h4>
+              </div>
+            </div>
+          </div>
         </Container>
+      </div>
+      <div className="pt-5">
+        <div className="flex flex-col text-center w-full">
+          <div className="grid h-20 card bg-base-300 rounded-box border-t-2 border-b-2 place-items-center">
+            <p className="text-gray-500 text-sm">Copyright © 2022 Visit Bondowoso. All Rights Reserved</p>
+          </div>
+        </div>
       </div>
     </div>
   );

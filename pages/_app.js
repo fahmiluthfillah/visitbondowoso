@@ -13,22 +13,26 @@ function MyApp({ Component, pageProps }) {
             <div className="flex justify-around">
               <Link href="/">
                 <div className="cursor-pointer hover:text-green-600">
-                  <Icon.Home size={20} />
+                  <Icon.Home size={20} className="w-full" />
+                  <p className="text-xs">Home</p>
                 </div>
               </Link>
               <Link href="/">
                 <div className="cursor-pointer hover:text-green-600">
-                  <Icon.Search size={20} />
+                  <Icon.Search size={20} className="w-full" />
+                  <p className="text-xs">Search</p>
                 </div>
               </Link>
               <Link href="/">
                 <div className="cursor-pointer hover:text-green-600">
-                  <Icon.Map size={20} />
+                  <Icon.Map size={20} className="w-full" />
+                  <p className="text-xs">Map</p>
                 </div>
               </Link>
               <Link href="/">
                 <div className="cursor-pointer hover:text-green-600">
-                  <Icon.User size={20} />
+                  <Icon.Image size={20} className="w-full" />
+                  <p className="text-xs">Gallery</p>
                 </div>
               </Link>
             </div>
