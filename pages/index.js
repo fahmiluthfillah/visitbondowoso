@@ -247,6 +247,56 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="mt-5">
+        <Container>
+          <h3 className="text-2xl font-bold">Article</h3>
+          <div className="mt-4">
+            <div className="flex items-center space-x-5 pb-6">
+              <div className="relative w-40 h-28">
+                <img
+                  src="https://primaitech.id/blog/wp-content/uploads/2021/09/Primaitech-panasbumi-scaled.jpg"
+                  layout="fill"
+                  className="object-cover rounded-xl w-full h-full"
+                />
+              </div>
+              <div>
+                <span className="text-sm text-gray-500">Category</span>
+                <h4 className="text-xl mt-1 font-bold">Description</h4>
+              </div>
+            </div>
+          </div>
+          <div className="mt-4">
+            <div className="flex items-center space-x-5 pb-6">
+              <div className="relative w-40 h-28">
+                <img
+                  src="https://primaitech.id/blog/wp-content/uploads/2021/09/Primaitech-panasbumi-scaled.jpg"
+                  layout="fill"
+                  className="object-cover rounded-xl w-full h-full"
+                />
+              </div>
+              <div>
+                <span className="text-sm text-gray-500">Category</span>
+                <h4 className="text-xl mt-1 font-bold">Description</h4>
+              </div>
+            </div>
+          </div>
+          <div className="mt-4">
+            <div className="flex items-center space-x-5 pb-6">
+              <div className="relative w-40 h-28">
+                <img
+                  src="https://primaitech.id/blog/wp-content/uploads/2021/09/Primaitech-panasbumi-scaled.jpg"
+                  layout="fill"
+                  className="object-cover rounded-xl w-full h-full"
+                />
+              </div>
+              <div>
+                <span className="text-sm text-gray-500">Category</span>
+                <h4 className="text-xl mt-1 font-bold">Description</h4>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </div>
     </div>
   );
 }
