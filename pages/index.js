@@ -3,7 +3,7 @@ import HeadTitle from "../components/headTitle";
 import Container from "../components/container";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import Waterfall from "../public/img/waterfall.png"
+import Waterfall from "../public/img/waterfall.png";
 
 export default function Home() {
   return (
@@ -199,15 +199,15 @@ export default function Home() {
             >
               <div className="relative w-full h-40 rounded">
                 <img
-                  src="https://cdn.idntimes.com/content-images/community/2020/10/fromandroid-bcee00c01389d67afec75fe8d7925b71_600x400.jpg"
+                  src="https://i1.wp.com/bondowosotourism.com/wp-content/uploads/2019/10/3.jpg?w=900&ssl=1"
                   layout="fill"
                   className="object-cover rounded w-full h-full"
                 />
               </div>
               <div className="mt-5">
-                <span className="text-sm text-gray-500">Sayur</span>
-                <h4 className="text-xl mt-1 font-bold">Kuah Sop</h4>
-                <p className="mt-2 text-blue-500">Rp. 5.000</p>
+                <span className="text-sm text-gray-500">Mountain</span>
+                <h4 className="text-xl mt-1 font-bold">Kawah Wurung</h4>
+                {/* <p className="mt-2 text-blue-500">Rp. 5.000</p> */}
               </div>
             </div>
             <div
@@ -216,15 +216,15 @@ export default function Home() {
             >
               <div className="relative w-full h-40 rounded">
                 <img
-                  src="https://asset.kompas.com/crops/ZV3pFsad4Ffi35Ss_ySKIsZoON0=/0x0:1000x667/750x500/data/photo/2021/07/27/60ff78475813b.jpg"
+                  src="https://i0.wp.com/bondowosotourism.com/wp-content/uploads/2019/11/IMG_0991-1.jpg?resize=768%2C512&ssl=1"
                   layout="fill"
                   className="object-cover rounded w-full h-full"
                 />
               </div>
               <div className="mt-5">
-                <span className="text-sm text-gray-500">Sayur</span>
-                <h4 className="text-xl mt-1 font-bold">Kuah Lodeh</h4>
-                <p className="mt-2 text-blue-500">Rp. 6.000</p>
+                <span className="text-sm text-gray-500">Waterfall</span>
+                <h4 className="text-xl mt-1 font-bold">Tancak Kembar</h4>
+                {/* <p className="mt-2 text-blue-500">Rp. 6.000</p> */}
               </div>
             </div>
             <div
@@ -233,15 +233,15 @@ export default function Home() {
             >
               <div className="relative w-full h-40 rounded">
                 <img
-                  src="https://asset.kompas.com/crops/RxtPSZMH6HwtqSE3uW5NDhnw4-c=/87x60:978x654/750x500/data/photo/2021/01/29/6013754c6e583.jpg"
+                  src="https://i2.wp.com/bondowosotourism.com/wp-content/uploads/2019/11/IMG_6604.jpg?w=900&ssl=1"
                   layout="fill"
                   className="object-cover rounded w-full h-full"
                 />
               </div>
               <div className="mt-5">
-                <span className="text-sm text-gray-500">Sayur</span>
-                <h4 className="text-xl mt-1 font-bold">Cah Kangkung</h4>
-                <p className="mt-2 text-blue-500">Rp. 5.000</p>
+                <span className="text-sm text-gray-500">Tourist Village</span>
+                <h4 className="text-xl mt-1 font-bold">Almour</h4>
+                {/* <p className="mt-2 text-blue-500">Rp. 5.000</p> */}
               </div>
             </div>
           </div>
