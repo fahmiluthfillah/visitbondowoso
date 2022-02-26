@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins";
+}
+
+.box {
+	@apply
+		text-gray-100
+		rounded;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
