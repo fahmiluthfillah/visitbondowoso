@@ -8,7 +8,7 @@ import Waterfall from "../public/img/waterfall.png";
 export default function Home() {
   return (
     <div className="h-auto">
-      <HeadTitle title="Visit Bondowoso" />
+      <HeadTitle title="Visit Bondowoso - Information Center for Tourist" />
       <div className="bg-green-600 h-15 w-full">
         <Container>
           <div className="py-4">
