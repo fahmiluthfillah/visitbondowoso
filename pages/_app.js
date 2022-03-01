@@ -2,10 +2,12 @@ import "../styles/globals.css";
 import * as Icon from "react-feather";
 import Container from "../components/container";
 import Link from "next/link";
+import HeadTitle from "../components/headTitle";
 
 function MyApp({ Component, pageProps }) {
   return (
     <div className="bg-grey">
+      <HeadTitle title="Visit Bondowoso - Information Center for Tourist" />
       <div className="m-auto h-full bg-white sm:w-full md:w-1/2 lg:w-1/3 relative pb-24">
         <Component {...pageProps} />
         <div className="fixed bottom-0 w-full md:w-1/2 lg:w-1/3 bg-white border border-gray py-5 rounded-tl-3xl rounded-tr-3xl">

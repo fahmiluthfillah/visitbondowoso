@@ -14,12 +14,13 @@ import Hotel from "../public/img/hotel.svg";
 import Guide from "../public/img/tour-guide.svg";
 import Transport from "../public/img/public-transport.svg";
 import Atm from "../public/img/atm.svg";
+import TitleBar from "../components/titleBar";
 
 export default function Home() {
   return (
     <div className="h-auto">
-      <HeadTitle title="Visit Bondowoso - Information Center for Tourist" />
-      <div className="bg-green-600 h-15 w-full">
+      <TitleBar titleBar="Visit Bondowoso" />
+      {/* <div className="bg-green-600 h-15 w-full">
         <Container>
           <div className="py-4">
             <p className="text-white text-lg text-center font-bold">
@@ -27,7 +28,7 @@ export default function Home() {
             </p>
           </div>
         </Container>
-      </div>
+      </div> */}
       {/* <div className="pt-5 px-3 relative mx-auto text-gray-600">
         <input
           className="w-full order-2 border-gray-300 bg-gray-100 h-10 px-5 pr-16 text-sm rounded-lg focus:outline-none"
@@ -92,108 +93,112 @@ export default function Home() {
           </div>
         </Carousel>
       </div>
-      <div className="pt-3">
+      <div className="pt-5">
         <Container>
-          <div className="content-center grid overflow-hidden grid-cols-4 grid-rows-2 gap-2 grid-flow-row">
+          <h3 className="text-lg font-bold">Menu</h3>
+          <div className="content-center grid overflow-hidden grid-cols-4 grid-rows-2 gap-2 grid-flow-row pt-3">
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Waterfall}
-                    className="w-full h-full object-cover"
-                  />
+                  <Image src={Waterfall} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Waterfall</p>
+                <p className="text-sm text-center text-gray-500 mt-2">
+                  Waterfall
+                </p>
               </div>
             </div>
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Mountain}
-                  className="w-full h-full object-cover"/>
+                  <Image src={Mountain} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Mountain</p>
+                <p className="text-sm text-center text-gray-500 mt-2">
+                  Mountain
+                </p>
               </div>
             </div>
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                <Image src={People}
-                  className="w-full h-full object-cover"/>
+                  <Image src={People} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Cultural Site</p>
+                <p className="text-sm text-center text-gray-500 mt-2">
+                  Cultural Site
+                </p>
               </div>
             </div>
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                <Image src={Pools}
-                  className="w-full h-full object-cover"/>
+                  <Image src={Pools} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Pools</p>
+                <p className="text-sm text-center text-gray-500 mt-2">Pools</p>
               </div>
             </div>
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                <Image src={Culinary}
-                  className="w-full h-full object-cover"/>
+                  <Image src={Culinary} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Culinary</p>
+                <p className="text-sm text-center text-gray-500 mt-2">
+                  Culinary
+                </p>
               </div>
             </div>
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                <Image src={Outdoors}
-                  className="w-full h-full object-cover"/>
+                  <Image src={Outdoors} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Tourist Village</p>
+                <p className="text-sm text-center text-gray-500 mt-2">
+                  Tourist Village
+                </p>
               </div>
             </div>
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                <Image src={Coffee}
-                  className="w-full h-full object-cover"/>
+                  <Image src={Coffee} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Coffee Shop</p>
+                <p className="text-sm text-center text-gray-500 mt-2">
+                  Coffee Shop
+                </p>
               </div>
             </div>
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                <Image src={Hotel}
-                  className="w-full h-full object-cover"/>
+                  <Image src={Hotel} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Hotel</p>
+                <p className="text-sm text-center text-gray-500 mt-2">Hotel</p>
               </div>
             </div>
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                <Image src={Guide}
-                  className="w-full h-full object-cover"/>
+                  <Image src={Guide} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Tour Guide</p>
+                <p className="text-sm text-center text-gray-500 mt-2">
+                  Tour Guide
+                </p>
               </div>
             </div>
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                <Image src={Transport}
-                  className="w-full h-full object-cover"/>
+                  <Image src={Transport} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Transportation</p>
+                <p className="text-sm text-center text-gray-500 mt-2">
+                  Transportation
+                </p>
               </div>
             </div>
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                <Image src={Atm}
-                  className="w-full h-full object-cover"/>
+                  <Image src={Atm} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">ATM</p>
+                <p className="text-sm text-center text-gray-500 mt-2">ATM</p>
               </div>
             </div>
             {/* <div className="box flex items-center justify-center text-black">
@@ -209,7 +214,7 @@ export default function Home() {
       </div>
       <div className="pt-5">
         <Container>
-          <h3 className="text-2xl font-bold">Favorite Place</h3>
+          <h3 className="text-xl font-bold">Favorite Place</h3>
         </Container>
         <div className="overflow-x-scroll w-full flex scrollbar-hide py-3">
           <div className="px-5 flex space-x-5">
@@ -269,7 +274,7 @@ export default function Home() {
       </div>
       <div className="pt-5">
         <Container>
-          <h3 className="text-2xl font-bold">Article</h3>
+          <h3 className="text-xl font-bold">Article</h3>
           <div className="mt-4">
             <div className="flex items-center space-x-5 pb-6">
               <div className="relative w-40 h-28">
@@ -280,8 +285,9 @@ export default function Home() {
                 />
               </div>
               <div>
-                <span className="text-sm text-gray-500">Category</span>
-                <h4 className="text-xl mt-1 font-bold">Description</h4>
+                <h4 className="text-xl mt-1 font-bold">Title</h4>
+                <span className="text-xs text-gray-500">Category</span>
+                <p className="text-sm text-gray-500">Lorem Ipsum Dolor Amet</p>
               </div>
             </div>
           </div>
@@ -295,8 +301,9 @@ export default function Home() {
                 />
               </div>
               <div>
-                <span className="text-sm text-gray-500">Category</span>
-                <h4 className="text-xl mt-1 font-bold">Description</h4>
+                <h4 className="text-xl mt-1 font-bold">Title</h4>
+                <span className="text-xs text-gray-500">Category</span>
+                <p className="text-sm text-gray-500">Lorem Ipsum Dolor Amet</p>
               </div>
             </div>
           </div>
@@ -310,8 +317,9 @@ export default function Home() {
                 />
               </div>
               <div>
-                <span className="text-sm text-gray-500">Category</span>
-                <h4 className="text-xl mt-1 font-bold">Description</h4>
+                <h4 className="text-xl mt-1 font-bold">Title</h4>
+                <span className="text-xs text-gray-500">Category</span>
+                <p className="text-sm text-gray-500">Lorem Ipsum Dolor Amet</p>
               </div>
             </div>
           </div>
@@ -325,8 +333,9 @@ export default function Home() {
                 />
               </div>
               <div>
-                <span className="text-sm text-gray-500">Category</span>
-                <h4 className="text-xl mt-1 font-bold">Description</h4>
+                <h4 className="text-xl mt-1 font-bold">Title</h4>
+                <span className="text-xs text-gray-500">Category</span>
+                <p className="text-sm text-gray-500">Lorem Ipsum Dolor Amet</p>
               </div>
             </div>
           </div>
@@ -340,8 +349,9 @@ export default function Home() {
                 />
               </div>
               <div>
-                <span className="text-sm text-gray-500">Category</span>
-                <h4 className="text-xl mt-1 font-bold">Description</h4>
+                <h4 className="text-xl mt-1 font-bold">Title</h4>
+                <span className="text-xs text-gray-500">Category</span>
+                <p className="text-sm text-gray-500">Lorem Ipsum Dolor Amet</p>
               </div>
             </div>
           </div>
