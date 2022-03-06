@@ -201,14 +201,15 @@ export default function Home() {
                 <p className="text-sm text-center text-gray-500 mt-2">ATM</p>
               </div>
             </div>
-            {/* <div className="box flex items-center justify-center text-black">
+            <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <img src="https://storage.googleapis.com/dev-sayurbox.appspot.com/sku-lg/1572497285282_scale_500x500_85_color_not_blur_fTQ.jpg" />
+                  <Image src={Atm} className="w-10 h-10 object-cover" />
                 </div>
-                <p className="text-sm text-center mt-2">Spesial Promo</p>
+                <p className="text-sm text-center text-gray-500 mt-2">Rental</p>
               </div>
-            </div> */}
+            </div>
+            
           </div>
         </Container>
       </div>
