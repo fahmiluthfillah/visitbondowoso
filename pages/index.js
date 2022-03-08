@@ -14,6 +14,7 @@ import Hotel from "../public/img/hotel.svg";
 import Guide from "../public/img/tour-guide.svg";
 import Transport from "../public/img/public-transport.svg";
 import Atm from "../public/img/atm.svg";
+import Rental from "../public/img/rent.svg";
 import TitleBar from "../components/titleBar";
 
 export default function Home() {
@@ -255,7 +256,7 @@ export default function Home() {
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
                   <Image
-                    src={Atm}
+                    src={Rental}
                     className="w-10 h-10 object-cover"
                     alt="rental"
                   />
