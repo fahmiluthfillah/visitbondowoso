@@ -54,6 +54,7 @@ export default function Home() {
               src="https://i1.wp.com/bondowosotourism.com/wp-content/uploads/2019/10/3.jpg?w=900&ssl=1"
               layout="fill"
               className="object-cover w-full h-full"
+              alt="photo-1"
             />
           </div>
           <div>
@@ -61,6 +62,7 @@ export default function Home() {
               src="https://wisatalengkap.com/wp-content/uploads/2017/04/Situs-Megalitikum-Bondowoso.jpg"
               layout="fill"
               className="object-cover w-full h-full"
+              alt="photo-2"
             />
           </div>
           <div>
@@ -68,6 +70,7 @@ export default function Home() {
               src="https://i0.wp.com/bondowosotourism.com/wp-content/uploads/2019/11/IMG_0991-1.jpg?resize=768%2C512&ssl=1"
               layout="fill"
               className="object-cover w-full h-full"
+              alt="photo-3"
             />
           </div>
           <div>
@@ -75,6 +78,7 @@ export default function Home() {
               src="https://i2.wp.com/bondowosotourism.com/wp-content/uploads/2019/11/2-GLINGSERAN.jpg?w=900&ssl=1"
               layout="fill"
               className="object-cover w-full h-full"
+              alt="photo-4"
             />
           </div>
           <div>
@@ -82,6 +86,7 @@ export default function Home() {
               src="https://i2.wp.com/bondowosotourism.com/wp-content/uploads/2019/11/IMG_6604.jpg?w=900&ssl=1"
               layout="fill"
               className="object-cover w-full h-full"
+              alt="photo-5"
             />
           </div>
           <div>
@@ -89,6 +94,7 @@ export default function Home() {
               src="https://i0.wp.com/bondowosotourism.com/wp-content/uploads/2019/10/4-kawah-gunung-ijen.jpg?resize=768%2C512&ssl=1"
               layout="fill"
               className="object-cover w-full h-full"
+              alt="photo-6"
             />
           </div>
         </Carousel>
@@ -100,7 +106,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Waterfall} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Waterfall}
+                    className="w-10 h-10 object-cover"
+                    alt="waterfall"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Waterfall
@@ -110,7 +120,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Mountain} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Mountain}
+                    className="w-10 h-10 object-cover"
+                    alt="mountain"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Mountain
@@ -120,7 +134,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={People} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={People}
+                    className="w-10 h-10 object-cover"
+                    alt="cultural-site"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Cultural Site
@@ -130,7 +148,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Pools} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Pools}
+                    className="w-10 h-10 object-cover"
+                    alt="pools"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">Pools</p>
               </div>
@@ -138,7 +160,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Culinary} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Culinary}
+                    className="w-10 h-10 object-cover"
+                    alt="culinary"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Culinary
@@ -148,7 +174,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Outdoors} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Outdoors}
+                    className="w-10 h-10 object-cover"
+                    alt="outdoors"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Tourist Village
@@ -158,7 +188,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Coffee} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Coffee}
+                    className="w-10 h-10 object-cover"
+                    alt="coffee-2"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Coffee Shop
@@ -168,7 +202,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Hotel} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Hotel}
+                    className="w-10 h-10 object-cover"
+                    alt="=hotel"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">Hotel</p>
               </div>
@@ -176,7 +214,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Guide} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Guide}
+                    className="w-10 h-10 object-cover"
+                    alt="guide"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Tour Guide
@@ -186,7 +228,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Transport} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Transport}
+                    className="w-10 h-10 object-cover"
+                    alt="transport"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Transportation
@@ -196,7 +242,11 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Atm} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Atm}
+                    className="w-10 h-10 object-cover"
+                    alt="atm"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">ATM</p>
               </div>
@@ -204,12 +254,15 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image src={Atm} className="w-10 h-10 object-cover" />
+                  <Image
+                    src={Atm}
+                    className="w-10 h-10 object-cover"
+                    alt="rental"
+                  />
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">Rental</p>
               </div>
             </div>
-            
           </div>
         </Container>
       </div>
@@ -228,6 +281,7 @@ export default function Home() {
                   src="https://i1.wp.com/bondowosotourism.com/wp-content/uploads/2019/10/3.jpg?w=900&ssl=1"
                   layout="fill"
                   className="object-cover rounded w-full h-full"
+                  alt="fav-1"
                 />
               </div>
               <div className="mt-5">
@@ -245,6 +299,7 @@ export default function Home() {
                   src="https://i0.wp.com/bondowosotourism.com/wp-content/uploads/2019/11/IMG_0991-1.jpg?resize=768%2C512&ssl=1"
                   layout="fill"
                   className="object-cover rounded w-full h-full"
+                  alt="fav-2"
                 />
               </div>
               <div className="mt-5">
@@ -262,6 +317,7 @@ export default function Home() {
                   src="https://i2.wp.com/bondowosotourism.com/wp-content/uploads/2019/11/IMG_6604.jpg?w=900&ssl=1"
                   layout="fill"
                   className="object-cover rounded w-full h-full"
+                  alt="fav-3"
                 />
               </div>
               <div className="mt-5">
@@ -283,6 +339,7 @@ export default function Home() {
                   src="https://primaitech.id/blog/wp-content/uploads/2021/09/Primaitech-panasbumi-scaled.jpg"
                   layout="fill"
                   className="object-cover rounded-xl w-full h-full"
+                  alt="article-1"
                 />
               </div>
               <div>
@@ -299,6 +356,7 @@ export default function Home() {
                   src="https://primaitech.id/blog/wp-content/uploads/2021/09/Primaitech-panasbumi-scaled.jpg"
                   layout="fill"
                   className="object-cover rounded-xl w-full h-full"
+                  alt="article-2"
                 />
               </div>
               <div>
@@ -315,6 +373,7 @@ export default function Home() {
                   src="https://primaitech.id/blog/wp-content/uploads/2021/09/Primaitech-panasbumi-scaled.jpg"
                   layout="fill"
                   className="object-cover rounded-xl w-full h-full"
+                  alt="article-3"
                 />
               </div>
               <div>
@@ -331,6 +390,7 @@ export default function Home() {
                   src="https://primaitech.id/blog/wp-content/uploads/2021/09/Primaitech-panasbumi-scaled.jpg"
                   layout="fill"
                   className="object-cover rounded-xl w-full h-full"
+                  alt="article-4"
                 />
               </div>
               <div>
@@ -347,6 +407,7 @@ export default function Home() {
                   src="https://primaitech.id/blog/wp-content/uploads/2021/09/Primaitech-panasbumi-scaled.jpg"
                   layout="fill"
                   className="object-cover rounded-xl w-full h-full"
+                  alt="article-5"
                 />
               </div>
               <div>
