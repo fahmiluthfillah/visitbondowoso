@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Container from "../../components/container";
-import HeadTitle from "../../components/headTitle";
-import TitleBar from "../../components/titleBar";
+import Container from "../../../components/container";
+import HeadTitle from "../../../components/headTitle";
+import TitleBar from "../../../components/titleBar";
 
 export default function DetailCategory() {
   return (
