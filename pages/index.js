@@ -3,6 +3,8 @@ import HeadTitle from "../components/headTitle";
 import Container from "../components/container";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import TitleBar from "../components/titleBar";
+
 import Waterfall from "../public/img/waterfall.svg";
 import Mountain from "../public/img/mountain.svg";
 import People from "../public/img/people.svg";
@@ -15,7 +17,7 @@ import Guide from "../public/img/tour-guide.svg";
 import Transport from "../public/img/public-transport.svg";
 import Atm from "../public/img/atm.svg";
 import Rental from "../public/img/rent.svg";
-import TitleBar from "../components/titleBar";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -107,11 +109,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Waterfall}
-                    className="w-10 h-10 object-cover"
-                    alt="waterfall"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Waterfall}
+                      className="w-10 h-10 object-cover"
+                      alt="waterfall"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Waterfall
@@ -121,11 +125,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Mountain}
-                    className="w-10 h-10 object-cover"
-                    alt="mountain"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Mountain}
+                      className="w-10 h-10 object-cover"
+                      alt="mountain"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Mountain
@@ -135,11 +141,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={People}
-                    className="w-10 h-10 object-cover"
-                    alt="cultural-site"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={People}
+                      className="w-10 h-10 object-cover"
+                      alt="cultural-site"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Cultural Site
@@ -149,11 +157,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Pools}
-                    className="w-10 h-10 object-cover"
-                    alt="pools"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Pools}
+                      className="w-10 h-10 object-cover"
+                      alt="pools"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">Pools</p>
               </div>
@@ -161,11 +171,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Culinary}
-                    className="w-10 h-10 object-cover"
-                    alt="culinary"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Culinary}
+                      className="w-10 h-10 object-cover"
+                      alt="culinary"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Culinary
@@ -175,11 +187,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Outdoors}
-                    className="w-10 h-10 object-cover"
-                    alt="outdoors"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Outdoors}
+                      className="w-10 h-10 object-cover"
+                      alt="outdoors"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Tourist Village
@@ -189,11 +203,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Coffee}
-                    className="w-10 h-10 object-cover"
-                    alt="coffee-2"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Coffee}
+                      className="w-10 h-10 object-cover"
+                      alt="coffee-2"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Coffee Shop
@@ -203,11 +219,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Hotel}
-                    className="w-10 h-10 object-cover"
-                    alt="=hotel"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Hotel}
+                      className="w-10 h-10 object-cover"
+                      alt="=hotel"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">Hotel</p>
               </div>
@@ -215,11 +233,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Guide}
-                    className="w-10 h-10 object-cover"
-                    alt="guide"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Guide}
+                      className="w-10 h-10 object-cover"
+                      alt="guide"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Tour Guide
@@ -229,11 +249,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Transport}
-                    className="w-10 h-10 object-cover"
-                    alt="transport"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Transport}
+                      className="w-10 h-10 object-cover"
+                      alt="transport"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">
                   Transportation
@@ -243,11 +265,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Atm}
-                    className="w-10 h-10 object-cover"
-                    alt="atm"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Atm}
+                      className="w-10 h-10 object-cover"
+                      alt="atm"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">ATM</p>
               </div>
@@ -255,11 +279,13 @@ export default function Home() {
             <div className="box flex items-center justify-center text-black">
               <div>
                 <div className="w-10 h-10 lg:w-14 lg:h-14 relative m-auto">
-                  <Image
-                    src={Rental}
-                    className="w-10 h-10 object-cover"
-                    alt="rental"
-                  />
+                  <Link href="/category">
+                    <Image
+                      src={Rental}
+                      className="w-10 h-10 object-cover"
+                      alt="rental"
+                    />
+                  </Link>
                 </div>
                 <p className="text-sm text-center text-gray-500 mt-2">Rental</p>
               </div>

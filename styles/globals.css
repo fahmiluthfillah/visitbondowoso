@@ -10,6 +10,13 @@ body {
 		rounded;
 }
 
+.item {
+	@apply
+		text-xl font-bold
+		flex items-center content-center justify-center
+		rounded
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
