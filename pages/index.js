@@ -18,6 +18,7 @@ import Transport from "../public/img/public-transport.svg";
 import Atm from "../public/img/atm.svg";
 import Rental from "../public/img/rent.svg";
 import Link from "next/link";
+import NavBottom from "../components/navBottom";
 
 export default function Home() {
   return (
@@ -455,6 +456,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <NavBottom />
     </div>
   );
 }
